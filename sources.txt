@@ -1,0 +1,8 @@
+Source image
+https://unsplash.com/fr/s/photos/d%C3%A9veloppeur-web?orientation=landscape&license=free
+
+source code cv
+https://blog.crea-troyes.fr/3485/cv-en-html-et-css-tutoriel-pour-rediger-et-coder-votre-cv/
+
+source code navbar
+https://blog.mikecodeur.com/post/creer-une-barre-de-navigation-avec-html-et-css-simple-et-elegante
