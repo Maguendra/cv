@@ -6,3 +6,6 @@ https://blog.crea-troyes.fr/3485/cv-en-html-et-css-tutoriel-pour-rediger-et-code
 
 source code navbar
 https://blog.mikecodeur.com/post/creer-une-barre-de-navigation-avec-html-et-css-simple-et-elegante
+
+To do : 
+relire les demandes profs (retirer la version css)

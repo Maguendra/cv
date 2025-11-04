@@ -29,6 +29,7 @@ main {
     grid-template-columns: 2fr 5fr;
 }
 
+
 ol, ul {
 	list-style: none;
 }
@@ -96,6 +97,7 @@ aside h2, section article h2 {
     margin-bottom: 10px;
 }
 
+
 aside p {
     color: var(--texte);
     margin-bottom: 30px;
@@ -103,6 +105,7 @@ aside p {
     border-bottom: 1px solid #cecece;
     line-height: 1.4;
 }
+
 
 section article {
     border-top: 1px solid #cecece;

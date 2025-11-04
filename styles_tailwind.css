@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
-@theme {
-  /* ... */
+@layer base {
+  h2 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.625rem;
+    margin-top: 10px;
+  }
+  .date {
+    font-style: italic;
+    margin-top: 15px;
+  }
 }
