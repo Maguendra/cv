@@ -8,6 +8,9 @@
     margin-bottom: 0.625rem;
     margin-top: 10px;
   }
+  article h2{
+    font-weight: 700;
+  }
   .date {
     font-style: italic;
     margin-top: 15px;
