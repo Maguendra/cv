@@ -1,0 +1,23 @@
+name: Deploy to Alwaysdata
+
+on:
+  push:
+    branches:
+      - master  # ou master, selon ta branche
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy to Alwaysdata via SSH
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ssh-liondev.alwaysdata.net
+          username: liondev
+          key: ${{ secrets.ALWAYSDATA_SSH_KEY }}
+          source: "./"
+          target: "www/"
