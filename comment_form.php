@@ -15,7 +15,10 @@
                 <label for="name" class="form-label">Votre pseudo</label>
                 <input type="text" class="form-control" id="name" name="name">                
             </div>
-
+            <div class="mb-3">
+                <label for="name" class="form-label">Votre email</label>
+                <input type="email" class="form-control" id="email" name="email">                
+            </div>
             <div class="mb-3">
                 <label for="title" class="form-label">Titre</label>
                 <input type="text" class="form-control" id="title" name="title">                
@@ -23,6 +26,32 @@
             <div class="mb-3">
                 <label for="message" class="form-label">Votre message</label>
                 <textarea class="form-control" placeholder="Exprimez vous" id="message" name="message"></textarea>
+            </div>       
+            
+            <div class="mb-3">
+                <label class="form-label">Note</label>
+                <div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rating" id="rating1" value="1">
+                        <label class="form-check-label" for="rating1">⭐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rating" id="rating2" value="2">
+                        <label class="form-check-label" for="rating2">⭐⭐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rating" id="rating3" value="3">
+                        <label class="form-check-label" for="rating3">⭐⭐⭐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rating" id="rating4" value="4">
+                        <label class="form-check-label" for="rating4">⭐⭐⭐⭐</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="rating" id="rating5" value="5" checked>
+                        <label class="form-check-label" for="rating5">⭐⭐⭐⭐⭐</label>
+                    </div>
+                </div>
             </div>
             
             <button type="submit" class="btn btn-primary">Envoyer</button>

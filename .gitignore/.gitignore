@@ -1,0 +1,45 @@
+# Configuration sensible
+config.php
+
+# Dépendances
+/vendor/
+composer.lock
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Logs et cache
+*.log
+/logs/
+/cache/
+/tmp/
+
+# Fichiers uploadés
+/uploads/
+/images/uploads/
+
+# Base de données locale
+*.sql
+*.sqlite
+*.db
+
+# Variables d'environnement
+.env
+.env.local
+
+# Fichiers de backup
+*.bak
+*.backup
+*~
