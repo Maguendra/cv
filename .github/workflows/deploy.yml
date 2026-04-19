@@ -20,9 +20,7 @@ jobs:
           username: liondev
           key: ${{ secrets.ALWAYSDATA_SSH_KEY }}
           port: 22
-          source: "./"
+          source: "*.html,*.css,*.php,*.png,*.jpg,*.md"
           target: "www/"
-          strip_components: 1
-          exclude: ".git"
           overwrite: true
           debug: true
