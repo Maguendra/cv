@@ -23,5 +23,6 @@ jobs:
           source: "./"
           target: "www/"
           strip_components: 1
+          exclude: ".git"
           overwrite: true
           debug: true
