@@ -113,11 +113,12 @@ section article {
 }
 
 section article h2 {
-    width: auto;    
+    width: auto;
     position: relative;
     top: -10px;
     display: inline-block;
     padding-right: 10px;
+    background: #fff;
 }
 
 section article p {
