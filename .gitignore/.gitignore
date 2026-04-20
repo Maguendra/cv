@@ -43,3 +43,8 @@ desktop.ini
 *.bak
 *.backup
 *~
+
+# Vidéos (trop lourdes pour GitHub)
+*.mp4
+*.mov
+*.avi
