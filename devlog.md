@@ -18,10 +18,9 @@
 ---
 
 
-## [20-04-2026] Nettoyage + ajout vidéo
+## [YYYY-MM-DD] Titre de la session
 ### Ce qui a été fait
-- suppression du `cv_en_forme_tailwind.html` supplémentaire
-- ajout de la vidéo de présentation dans les trois fichiers html 
+- 
 
 ### Problèmes rencontrés
 - 
