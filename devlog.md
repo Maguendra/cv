@@ -2,6 +2,7 @@
 
 ## À faire
 - [X] régler le github Actions pour une mise à jour automatique du site quand je commit
+- [ ] Vérifier que la vidéo est sur alwaysdata et Push les derniers changements et tester la vidéo (voir si le lien fonctionne)
 
 
 
