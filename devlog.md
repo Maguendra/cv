@@ -2,10 +2,24 @@
 
 ## À faire
 - [X] régler le github Actions pour une mise à jour automatique du site quand je commit
-- [ ] Vérifier que la vidéo est sur alwaysdata et Push les derniers changements et tester la vidéo (voir si le lien fonctionne)
+- [X] Vérifier que la vidéo est sur alwaysdata et Push les derniers changements et tester la vidéo (voir si le lien fonctionne)
+- [ ] Liste des commentaires PHP : problème de chargement des styles ? 
 
 
 ---
+
+## [28-04-26] Ajout Javascript
+### Ce qui a été fait
+- Création de la page Javascript avec menu dépliant et changement de couleur au passage de la souris
+- suppression du fichier navbar-template.html inutile
+
+### Problèmes rencontrés
+- Bug sur la barre de navigation
+
+### Solution
+- mise à jour de toutes les barres, modification des liens (l'un donnait sur un ancien nom de fichier)
+
+
 
 
 ## [21-04-26] Titre de la session
